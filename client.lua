@@ -11,7 +11,7 @@ Citizen.CreateThread(function()
         end
         Citizen.Wait(1*1000)
         
-        SetDiscordAppId(764569040454680580)
+        SetDiscordAppId(enter the discord IP application)
         
     
         SetDiscordRichPresenceAsset('big')
