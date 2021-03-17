@@ -11,14 +11,14 @@ Citizen.CreateThread(function()
         end
         Citizen.Wait(1*1000)
         
-        SetDiscordAppId(enter the discord IP application)
+        SetDiscordAppId(enter the discord ID application)
         
     
         SetDiscordRichPresenceAsset('big')
-        SetDiscordRichPresenceAssetText('https://discord.gg/UukCHeH')
+        SetDiscordRichPresenceAssetText('enter the text')
 		
 		
         SetDiscordRichPresenceAssetSmall("small") 
-		SetDiscordRichPresenceAssetSmallText("ID: "..id.." | "..name.." ")
+		SetDiscordRichPresenceAssetSmallText("ID: "..id.." | "..name.." ")--no text
     end
 end)
